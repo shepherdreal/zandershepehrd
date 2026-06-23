@@ -1,17 +1,23 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+	<main
+		class="flex min-h-screen flex-col items-center justify-center px-6 text-center"
+	>
+		<p
+			class="mb-4 text-sm font-medium tracking-widest text-zinc-500 uppercase"
+		>
+			Coming soon
+		</p>
+		<h1
+			class="text-4xl font-semibold tracking-tight text-zinc-50 sm:text-5xl"
+		>
+			Zander Shepherd
+		</h1>
+		<p class="mt-4 max-w-md text-lg text-zinc-400">
+			Something new is on the way. Check back soon.
+		</p>
+	</main>
+</Layout>
